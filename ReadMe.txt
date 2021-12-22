@@ -13,11 +13,4 @@ Dear Sir / Madam,
 * use following sql commads to create database
 
 
-CREATE SCHEMA `photography` ;
-
-CREATE TABLE `photography`.`images` (
-  `ID` INT NOT NULL,
-  `imgURL` VARCHAR(1000) NULL,
-  `Topic` VARCHAR(45) NULL,
-  `price` VARCHAR(45) NULL,
-  PRIMARY KEY (`ID`));
+Use photography.sql exported database

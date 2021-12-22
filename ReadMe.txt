@@ -11,3 +11,13 @@ Dear Sir / Madam,
 *Used bootstrap ass CSS framework
 *Used Firebase storage to save images so that the admin can save clear and high quality images(file size does not matter) 
 * use following sql commads to create database
+
+
+CREATE SCHEMA `photography` ;
+
+CREATE TABLE `photography`.`images` (
+  `ID` INT NOT NULL,
+  `imgURL` VARCHAR(1000) NULL,
+  `Topic` VARCHAR(45) NULL,
+  `price` VARCHAR(45) NULL,
+  PRIMARY KEY (`ID`));
